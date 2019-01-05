@@ -61,7 +61,7 @@
 #define SIGEV_THREAD_ID 4       /* deliver to thread */
 #endif
 
-#define BUF_SIZE	4096	/* Good enough value - can be changed */
+#define BUF_SIZE	1024*16	/* Good enough value - can be changed */
 
 struct buffer {
 	char buf[BUF_SIZE];
